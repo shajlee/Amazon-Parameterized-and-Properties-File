@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  
+  <parameter name="url" value="https://amazon.com"/>
+  <parameter name="username" value="Shajlee Adeeb"/>
+  <parameter name="useremail" value="chowdhurygs@rediffmail.com"/>
+  <parameter name="userpassword" value="Chowdhury123"/>
+  <parameter name="userpasswordcheck" value="Chowdhury123"/>
+    <classes>
+      <class name="amazon.Amazon_Create_An_Account"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

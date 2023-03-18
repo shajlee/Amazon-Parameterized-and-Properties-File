@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-18T13:35:50 PDT" name="Default suite" finished-at="2023-03-18T13:36:11 PDT" duration-ms="21328">
+    <groups>
+    </groups>
+    <test started-at="2023-03-18T13:35:50 PDT" name="Default test" finished-at="2023-03-18T13:36:11 PDT" duration-ms="21328">
+      <class name="amazon.Amazon_Sign_In_PropertiesFile">
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:amazon.Amazon_Sign_In_PropertiesFile@543295b0]" started-at="2023-03-18T13:35:50 PDT" name="launchUrl" finished-at="2023-03-18T13:35:54 PDT" duration-ms="4495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="clickOnSignInLink()[pri:1, instance:amazon.Amazon_Sign_In_PropertiesFile@543295b0]" started-at="2023-03-18T13:35:54 PDT" name="clickOnSignInLink" finished-at="2023-03-18T13:35:55 PDT" duration-ms="704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSignInLink -->
+        <test-method signature="logInCredentials()[pri:2, instance:amazon.Amazon_Sign_In_PropertiesFile@543295b0]" started-at="2023-03-18T13:35:55 PDT" name="logInCredentials" finished-at="2023-03-18T13:35:55 PDT" depends-on-methods="amazon.Amazon_Sign_In_PropertiesFile.clickOnSignInLink" duration-ms="565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInCredentials -->
+        <test-method signature="searchPoscaMarkers()[pri:3, instance:amazon.Amazon_Sign_In_PropertiesFile@543295b0]" started-at="2023-03-18T13:35:55 PDT" name="searchPoscaMarkers" finished-at="2023-03-18T13:36:06 PDT" depends-on-methods="amazon.Amazon_Sign_In_PropertiesFile.clickOnSignInLink, amazon.Amazon_Sign_In_PropertiesFile.logInCredentials" duration-ms="10649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPoscaMarkers -->
+        <test-method signature="addToCartButton()[pri:4, instance:amazon.Amazon_Sign_In_PropertiesFile@543295b0]" started-at="2023-03-18T13:36:06 PDT" name="addToCartButton" finished-at="2023-03-18T13:36:08 PDT" depends-on-methods="amazon.Amazon_Sign_In_PropertiesFile.searchPoscaMarkers, amazon.Amazon_Sign_In_PropertiesFile.clickOnSignInLink, amazon.Amazon_Sign_In_PropertiesFile.logInCredentials" duration-ms="1530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartButton -->
+        <test-method signature="goToCartButton()[pri:5, instance:amazon.Amazon_Sign_In_PropertiesFile@543295b0]" started-at="2023-03-18T13:36:08 PDT" name="goToCartButton" finished-at="2023-03-18T13:36:10 PDT" depends-on-methods="amazon.Amazon_Sign_In_PropertiesFile.addToCartButton, amazon.Amazon_Sign_In_PropertiesFile.searchPoscaMarkers, amazon.Amazon_Sign_In_PropertiesFile.clickOnSignInLink, amazon.Amazon_Sign_In_PropertiesFile.logInCredentials" duration-ms="2095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToCartButton -->
+        <test-method signature="amazonHomeButton()[pri:6, instance:amazon.Amazon_Sign_In_PropertiesFile@543295b0]" started-at="2023-03-18T13:36:10 PDT" name="amazonHomeButton" finished-at="2023-03-18T13:36:11 PDT" depends-on-methods="amazon.Amazon_Sign_In_PropertiesFile.addToCartButton, amazon.Amazon_Sign_In_PropertiesFile.goToCartButton, amazon.Amazon_Sign_In_PropertiesFile.searchPoscaMarkers, amazon.Amazon_Sign_In_PropertiesFile.clickOnSignInLink, amazon.Amazon_Sign_In_PropertiesFile.logInCredentials" duration-ms="1241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonHomeButton -->
+      </class> <!-- amazon.Amazon_Sign_In_PropertiesFile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
